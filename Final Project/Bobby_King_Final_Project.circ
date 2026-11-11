@@ -73,8 +73,8 @@
     <a name="circuit" val="main"/>
     <a name="circuitnamedboxfixedsize" val="true"/>
     <a name="downloadBoard" val="DE10LITE"/>
-    <a name="downloadFrequency" val="2.0"/>
-    <a name="simulationFrequency" val="2.0"/>
+    <a name="downloadFrequency" val="8.0"/>
+    <a name="simulationFrequency" val="8.0"/>
     <boardmap boardname="DE10LITE">
       <mc key="/En" map="551,322"/>
       <mc key="/L_7_Segment_Display_1" map="137,307"/>
@@ -103,6 +103,10 @@
     <comp lib="0" loc="(180,480)" name="Tunnel">
       <a name="facing" val="east"/>
       <a name="label" val="Y"/>
+    </comp>
+    <comp lib="0" loc="(200,410)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="pedestrian_request"/>
     </comp>
     <comp lib="0" loc="(290,350)" name="Splitter">
       <a name="fanout" val="4"/>
@@ -200,9 +204,6 @@
     <comp lib="1" loc="(480,600)" name="OR Gate">
       <a name="size" val="30"/>
     </comp>
-    <comp lib="6" loc="(200,410)" name="Button">
-      <a name="label" val="Pedestrian_request"/>
-    </comp>
     <comp lib="6" loc="(600,140)" name="RGBLED">
       <a name="label" val="RGBLED_1"/>
       <a name="labelcolor" val="#ff0000"/>
@@ -234,7 +235,9 @@
     <comp loc="(1130,410)" name="Bin2Hex">
       <a name="label" val="Bin2Hex_1"/>
     </comp>
-    <comp loc="(400,440)" name="Pedestrian"/>
+    <comp loc="(400,440)" name="Pedestrian">
+      <a name="label" val="Pedestrian_1"/>
+    </comp>
     <comp loc="(680,280)" name="FSM">
       <a name="label" val="FSM_1"/>
     </comp>
